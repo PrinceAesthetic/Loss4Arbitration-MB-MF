@@ -1,7 +1,9 @@
-# Arbitration Between Model Based Learner and Model Free learner
+# Arbitration Between Model Free and Model Based control
 
-## loss4arbitration.ipynb is the code for an easier two stage task. 
+## loss4arbitration_fit.py is the code for all the models, including the new arbitration model larbi. It also contains the code for the environment adopted from Lee et al, 2014 task.
 
-## loss4arbitration-focus.ipynb is the code I'm currently focusing on, for the environment in Lee 2014.
+## fit_funtions.py is the code for model fitting functions, including the calculation of negative log likelihood(NLL).
 
-## Other files and codes are the results of playing around with the codes for debugging.
+## Run fit steps.py to start fitting the models to the behavioral data.
+
+## Other codes are auxiliary, including visualizations and model comparisons.
